@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dubai Mafiya - The ultimate destination for cricket match analysis. Get predictions and insights for the 2022 season.">
+    <meta name="keywords" content="Dubai Mafiya, cricket, analysis, match, prediction, 2022, sports, telegram">
+    <title>Dubai Mafiya | Cricket Analyst 🏏</title>
+    <link rel="canonical" href="https://yourwebsite.com/index.html">
+
+    <meta property="og:title" content="Dubai Mafiya - Cricket Analyst">
+    <meta property="og:description" content="Join Dubai Mafiya for back-to-back cricket match analysis and predictions for the 2022 season.">
+    <meta property="og:image" content="https://yourwebsite.com/img/logo.jpg">
+    <meta property="og:url" content="https://yourwebsite.com/index.html">
+    <meta property="og:type" content="website">
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "SportsTeam",
+          "name": "Dubai Mafiya",
+          "sport": "Cricket",
+          "url": "https://yourwebsite.com",
+          "description": "Cricket Ka Zabardast Analyst",
+          "logo": "https://yourwebsite.com/img/logo.jpg"
+        }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="hero">
+
+        <div class="content">
+            <h1 class="heading1">
+                🏏 𝐃𝐮𝐛𝐚𝐢 𝐌𝐚𝐟𝐢𝐲𝐚 [2022]™ 🏏</h1>
+            <h2 class="h2">Cricket Ka Zabardast Analyst ❤️</h2>
+        </div>
+
+        <img src="img/logo.jpg" alt="Dubai Mafiya Team Logo" />
+
+        <div class="countdown-container">
+            <div class="timer" id="countdown">60</div>
+            <div class="second-counter">Seconds Left</div>
+        </div>
+
+        <div class="button-wrapper">
+            <a href="https://t.me/+LF-RoJsjIjMyZGQ9" class="btn">
+                JOIN THE CHANNEL NOW <i class="fa-brands fa-telegram-plane"></i>
+            </a>
+        </div>
+
+        <h4 class="info-text">Back To Back 20 Matches Pass 😎</h4>
+
+    </div>
+
+    <script>
+        let remainingSeconds = 60;
+        const countdownElement = document.getElementById("countdown");
+
+        function updateCountdown() {
+            countdownElement.textContent = remainingSeconds;
+            remainingSeconds -= 1;
+
+            if (remainingSeconds < 0) {
+                remainingSeconds = 60;
+            }
+        }
+
+        updateCountdown();
+        const countdownInterval = setInterval(updateCountdown, 1000);
+    </script>
+
+</body>
+
+</html>
